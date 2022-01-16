@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  background: #F2F2F2;
+  margin: 0;
+  font-family: 'Poppins';
+}
+
+.logo {
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ff00bf;
+  font-size: 4em;
+  border-bottom: 2px solid #cfd8dc;
+}
+
+.logo span {
+  color: #130b13;
+}
+
+.application {
+  margin: 5em;
+}
+
+.application .title {
+  text-decoration: none;
+  font-size: 2em;
+}
+
+.application .add {
+  font-size: 1.5em;
+  padding: 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 4em;
+  background-color: #2962ff;
+  color: white;
+  cursor: pointer;
+  border-radius: 0.2em;
+  outline: none;
+  -webkit-transition: all 10ms ease-in;
+  transition: all 10ms ease-in;
+  font-weight: bold;
+}
+
+.application .add:hover {
+  background-color: #0d47a1;
+}
+
+.application .selection {
+  display: none;
+  position: float;
+  color: black;
+}
+
+.application .selection .push {
+  padding: 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 0.2em;
+  outline: none;
+  -webkit-transition: all 10ms ease-in;
+  transition: all 10ms ease-in;
+  font-weight: bold;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+}
+
+.application .selection .comp_error {
+  color: red;
+  display: none;
+}
+
+.application .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.application .display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 100%;
+  margin: 2em 0em;
+}
+
+.application .display-cell {
+  width: 15em;
+  height: 15em;
+  -webkit-box-shadow: 0px 0px 10px #78909c;
+          box-shadow: 0px 0px 10px #78909c;
+  margin: 0 1em 1em 0;
+  text-decoration: none;
+  text-align: center;
+}
+
+.application .newComp {
+  font-weight: bold;
+}
+
+.application .inter {
+  font: italic small-caps bold 12px/30px Georgia, serif;
+  color: #172f7e;
+}
+
+.application .check {
+  width: 50px;
+  height: 50px;
+  background: url(../images/checkmark.jpg);
+  background-size: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  cursor: pointer;
+  border-radius: 0.2em;
+}
+
+.application .cross {
+  width: 50px;
+  height: 50px;
+  background: url(../images/crossmark.jpg);
+  background-size: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  cursor: pointer;
+  border-radius: 0.2em;
+}
+
+.interview {
+  margin: 5em;
+}
+
+.interview .title {
+  text-decoration: none;
+  font-size: 2em;
+}
+
+.interview .interviewDisplay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 100%;
+  margin: 2em 0em;
+}
+
+.interview .interviewDisplay .comp-name {
+  font-weight: bold;
+}
+
+.interview .interview-cell {
+  width: 15em;
+  height: 8em;
+  -webkit-box-shadow: 0px 0px 10px #78909c;
+          box-shadow: 0px 0px 10px #78909c;
+  margin: 0 1em 1em 0;
+  text-decoration: none;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */

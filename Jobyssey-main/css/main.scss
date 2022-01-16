@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background: #F2F2F2;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.logo {
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 0, 191);
+    font-size: 4em;
+
+    span {
+        color: rgb(19, 11, 19);
+    }
+
+    border-bottom: 2px solid #cfd8dc;
+}
+
+
+.application {
+    margin: 5em;
+    
+    .title {
+        text-decoration: none;
+        font-size: 2em;
+    }
+
+    .add {
+        font-size: 1.5em;
+        padding: 1em;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        height: 4em;
+        background-color: #2962ff;
+        color: white;
+        cursor: pointer;
+        border-radius: 0.2em;
+        outline: none;
+        transition: all 10ms ease-in;
+        font-weight: bold;
+    }
+
+    .add:hover {
+        background-color: #0d47a1;
+    }
+
+    .selection {
+        display: none;
+        position: float;
+        color: black;
+
+        .push {
+            padding: 1em;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            border-radius: 0.2em;
+            outline: none;
+            transition: all 10ms ease-in;
+            font-weight: bold;
+            align-content: flex-end;
+        }
+
+        .comp_error {
+            color: red;
+            display: none;
+        }
+    }
+
+    .container {
+        display: flex;
+        place-content: space-between;
+    }
+
+    .display {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin: 2em 0em;
+    }
+
+    .display-cell {
+        width: 15em;
+        height: 15em;
+        box-shadow: 0px 0px 10px #78909c;
+        margin: 0 1em 1em 0;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .newComp {
+        font-weight: bold;
+    }
+    
+    .inter {
+        font: italic small-caps bold 12px/30px Georgia, serif;
+        color: rgb(23, 47, 126);
+    }
+
+    .check {
+        width: 50px;
+        height: 50px;
+        background: url(../images/checkmark.jpg);
+        background-size: 100%;
+
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        color: white;
+        cursor: pointer;
+        border-radius: 0.2em;
+    }
+
+    .cross {
+        width: 50px;
+        height: 50px;
+        background: url(../images/crossmark.jpg);
+        background-size: 100%;
+
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        color: white;
+        cursor: pointer;
+        border-radius: 0.2em;
+    }
+}
+
+.interview {
+    margin: 5em;
+
+    .title {
+        text-decoration: none;
+        font-size: 2em;
+    }
+
+    .interviewDisplay {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin: 2em 0em;
+        .comp-name {
+            font-weight: bold;
+        }
+    }
+
+    .interview-cell {
+        width: 15em;
+        height: 8em;
+        box-shadow: 0px 0px 10px #78909c;
+        margin: 0 1em 1em 0;
+        text-decoration: none;
+        text-align: center;
+    }
+}

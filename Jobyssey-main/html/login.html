@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobyssey Login</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <div class="container">
+        <form class= "form" id="login">
+            <h1 class = "form_title"> 
+                Welcome to Jobyssey
+            </h1>
+            <div class ="error_message hide" id = "loginError">Incorrect Username or Password</div>
+
+            <div class="form_input">
+                <input type="text" id = "username" class="user_input" autofocus placeholder = "Username">
+            </div>
+
+            <div class="form_input">
+                <input type="password" id = "password" class="user_input" autofocus placeholder = "Password">
+            </div>
+
+            <button class="login" id = "loginButton" type="submit">Login</button>
+
+            <p class = "forgot_password">
+                <a href='#' class="forgot_link">Reset Password</a>
+            </p>
+
+            <p class = "register">
+                <a class="register" id="createAccountLink">Register</a>
+            </p>
+
+        </form>
+
+        <form class= "form hide" id="createAccount">
+            <h1 class = "form_title"> 
+                Welcome to Jobyssey
+            </h1>
+
+            <div class ="error_message hide" id = "registerError">Passwords do not match or account already exsists</div>
+
+
+            <div class="form_input">
+                <input type="text" id = "newUsername" class="user_input" autofocus placeholder = "Username">
+            </div>
+
+            <div class="form_input">
+                <input type="text" id = "newEmail" class="user_input" autofocus placeholder = "Email Address">
+            </div>
+
+            <div class="form_input">
+                <input type="password" id = "newPassword" class="user_input" autofocus placeholder = "Password">
+            </div>
+
+            <div class="form_input">
+                <input type="password" id = "confirmPassword" class="user_input" autofocus placeholder = "Confirm Password">
+            </div>
+
+            <button class="login" id = "register" type="submit">Register</button>
+
+            <p class = "have_account">
+                <a href='#' class="login_instead" id="haveAccountLink">Have Account</a>
+            </p>
+
+        </form>
+    </div>
+</body>
+
+
+<script src="../scripts/login.js"></script>
+</html>
